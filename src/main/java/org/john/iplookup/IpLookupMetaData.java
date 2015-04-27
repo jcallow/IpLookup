@@ -31,7 +31,7 @@ public class IpLookupMetaData implements PluginMetaData {
     @Override
     public URI getURL() {
         // TODO Insert correct plugin website
-        return URI.create("https://www.John.org/");
+        return URI.create("https://github.com/jcallow/IpLookup");
     }
 
     @Override
@@ -42,7 +42,7 @@ public class IpLookupMetaData implements PluginMetaData {
     @Override
     public String getDescription() {
         // TODO Insert correct plugin description
-        return "Given an ip looks up where it came from.";
+        return "If ip field exists, looks up it's city and country and adds them as fields.";
     }
 
     @Override
